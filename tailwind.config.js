@@ -13,6 +13,7 @@ export default {
       RubikSemiBold: ["RubikSemiBold"],
       Poppins: ["PoppinsRegular"]
     },
+    
     colors: {
       green: "#9CCF32",
       white: "#ffffff",
