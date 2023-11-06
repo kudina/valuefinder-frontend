@@ -20,7 +20,7 @@ const Second_Pane = () => {
   return (
     <Layout >
       <div className='lg:px-40 lg:pt-20'>
-      <h1 className='text-4xl font-bold text-black sm:p-0'>Browse Skill by Category</h1>
+      <h1 className='text-4xl font-bold text-black sm:p-0 p-8'>Browse Skill by Category</h1>
 
       {/*First row***/}
 
@@ -42,7 +42,7 @@ const Second_Pane = () => {
 
 
 
-       <div >
+       <div  className='sm:mt-16'>
        <div class="bg-white shadow-lg p-5 mb-9 border-10 flex flex-col items-center justify-center h-44">
          
          <img src={writing} className='w-[30%]'/> 

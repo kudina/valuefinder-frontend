@@ -10,6 +10,7 @@ import Profile from "./Pages/Auth/Profile";
 import Userbio from './Pages/Contract/Userbio'
 import Editpost from "./Pages/Post/Editpost";
 import Contractroom from './Pages/Contract/Contractroom';
+import About from "./Pages/About/About";
 
 
 const routes = createBrowserRouter([
@@ -49,6 +50,11 @@ const routes = createBrowserRouter([
   {
     path: "/contract",
     element: <Contractroom/>,
+  },
+
+  {
+    path: "/about",
+    element: <About/>,
   },
 
   // {

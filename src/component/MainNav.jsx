@@ -56,7 +56,7 @@ const MainNav = () => {
     },
     {
       title: "About us",
-      linkTo: "/create-job",
+      linkTo: "/about",
     },
     {
       title: "Login",
