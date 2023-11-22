@@ -14,8 +14,8 @@ const First_pane = () => {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         paddingBottom: '80px',
-        
-        height: '70vh',
+        paddingTop: '80px',
+        height: '80vh',
         backgroundAttachment:'fixed',
     
     }}
@@ -30,9 +30,9 @@ const First_pane = () => {
 
 
 
-    <div className='lg:px-40 lg:pt-20'>
+    <div className='lg:px-40 lg:pt-20 p-5 ' style={{backgroundColor:'#F6F6F6', color:'#575755'}}>
         
-    <h2 class="text-4xl  md:text-9xl lg:text-7xl font-semibold   font-Poppins  text-dark">About Valuefinders </h2>
+    <h2 class="text-4xl  md:text-9xl lg:text-7xl font-semibold   font-Poppins  text-dark ">About Valuefinders </h2>
     <p className='font-semibold pt-9 text-dark'>Growing up in a third world country as a teenage orphan, 
     I had no choice than doing every menial job I could get and learning every available skill
      that would help me survive, ranging from weeding compounds to hawking and so on... Somehow,
@@ -101,175 +101,11 @@ created to help remote and nearby skilled persons be found by organizations and
   </div>
 
 
-  <div class="md:w-1/2"> 
-        
-        <h2 class="text-3xl  md:text-3xl lg:text-3xl font-semibold   font-Poppins  text-dark">OUR MISSION </h2>
-        <p> Helping organizations and individuals get value for money spent on services
-             rendered to them by artisan(s) and adequately compensating skilled person(s)
-              for their craft(s) and time deployed in doing quality job within 24hours</p>
-  </div>
-
-
-</div>
-
-
-
-
-<div class="md:flex pt-10 gap-5">
-  <div class="md:w-1/2"> 
-  <h3 className=' font-semibold'>We have a team of highly dedicated and qualified personnel working tirelessly to meet this need and have created a system that:</h3>
  
 
-  <div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  presents you with competent curated artisans with integrity and pedigree 
-  </div>
-</div>
-
-
-
- 
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  guarantees value by capturing vital information about Hirers and Artisans from the point of signing up,
-   knowing transaction(s) may entail physical meetings 
-  </div>
-</div>
-
-
-
-
-
- 
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  prioritizes comfort as it automatically detects proximity of the location(s) of the intending parties to strike a 
-  deal and matches them up to avoid delay  </div>
-</div>
-
-
-
-
- 
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  charges ONLY freelancers, thereby helping hirers save some money for handsome remuneration of artisans
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-  <div class="md:w-1/2"> 
-   
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  ensures remuneration of Freelancers within 24hours of confirmation of delivery
-  </div>
-</div>
-
-
-
-
-
- 
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  sends SMS to artisan(s) when there is indication of interest to hire them. We chose SMS because of its certainty of delivery when internet is off or Artisans are too busy to check emails
-
- </div>
-</div>
-
-
-        
-  <div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  prioritizes honesty and satisfaction, by waiting for confirmation from both parties before payment
- </div>
-</div>
-
-
-
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  puts you at an advantaged position to be easily reached by empowering organizations
-
-
- </div>
-</div>
-
-<div class="flex pt-3">
-  <div class="w-6 h-6 mt-1 mr-4 flex-shrink-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-full h-full text-indigo-600">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
-  <div>
-  prompts people to improve on their demeanour and professional ethics
-
-
- </div>
-</div>
-
-
-
-
-  </div>
-
 
 </div>
+
 
 
 

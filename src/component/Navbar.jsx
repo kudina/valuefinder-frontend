@@ -45,6 +45,9 @@ const Navbar = () => {
       title: "Find Job",
       linkTo: "/create-job",
     },
+
+   
+
     {
       title: "Reports",
       linkTo: "/create-job",

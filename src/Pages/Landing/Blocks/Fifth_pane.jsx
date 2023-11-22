@@ -27,7 +27,7 @@ const Fifth_pane = () => {
          </div>
   </div>
   <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-0">
-    <div style={{backgroundColor:'#3399fe',padding:'30px',height: '70vh',}}>
+    <div style={{backgroundColor:'#FFE030',padding:'30px',height: '70vh',}}>
        <h6 className='text-white'>FOR TALENT</h6>
        <h1 className='text-4xl  md:text-4xl lg:text-4xl font-semibold pt-9 text-white font-Poppins'>Find Great Work</h1>
        <p className='text-white pt-7'>Meet clients you're excited to work with and take your career  or business to new heights</p>

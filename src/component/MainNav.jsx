@@ -38,6 +38,10 @@ const MainNav = () => {
 
   const userMenue = [
     {
+      title: "About us",
+      linkTo: "/about",
+    },
+    {
       title: "Dashboard",
       linkTo: "/dashboard",
     },
@@ -47,17 +51,21 @@ const MainNav = () => {
       linkTo: "/create-job",
     },
     {
+      title: "Find Talent",
+      linkTo: "/create-job",
+    },
+    {
       title: "Companies",
       linkTo: "/create-job",
     },
+
+  
+
     {
       title: "New",
       linkTo: "/create-job",
     },
-    {
-      title: "About us",
-      linkTo: "/about",
-    },
+   
     {
       title: "Login",
       linkTo: "/login",

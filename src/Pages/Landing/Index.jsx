@@ -12,6 +12,7 @@ import First_Pane from './Blocks/First_Pane';
 import Third_pane from './Blocks/Third_pane';
 import Fourth_pane from './Blocks/Fourth_pane';
 import Fifth_pane from './Blocks/Fifth_pane';
+import Footer from '../../component/Footer';
 
 
 
@@ -25,10 +26,11 @@ const Index = () => {
         <Layout>
         <MainNav />
          <First_Pane />
-         <Second_Pane />
+     
          <Third_pane />
          <Fourth_pane />
          <Fifth_pane />
+         <Footer />
  </Layout>
      
 
